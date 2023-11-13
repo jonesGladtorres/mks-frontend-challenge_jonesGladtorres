@@ -35,4 +35,4 @@ Abaixo, deixarei algumas documentações de bibliotecas utilizadas neste projeto
 
 o Deploy deste projeto contou com uma ajuda externa da [API](https://mks-frontend-challenge-04811e8151e6.herokuapp.com/api-docs/).
 
-Para acessar o projeto [CLIQUE AQUI](https://front-end-async-test-jonesgladtorres.vercel.app).
+Para acessar o projeto [CLIQUE AQUI](https://mks-frontend-challenge-jonesgladtorres.vercel.app).
