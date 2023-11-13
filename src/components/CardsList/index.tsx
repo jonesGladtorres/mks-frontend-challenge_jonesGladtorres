@@ -9,13 +9,13 @@ import { Loading } from "../Skeleton/Loading";
 
 export interface IProduct{
     brand: string,
-    createdAt: Date,
+    createdAt?: Date,
     description: string,
     id: number,
     name: string,
     photo: string,
     price: number,
-    updatedAt: Date,
+    updatedAt?: Date,
     amount?: number,
     total?: number
 }
