@@ -7,7 +7,7 @@ export const CardsListContainer = styled.ul`
     padding: 50px;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background: var(--color-bg-2);
     @media (min-width: 1024px) {
         display: grid;
@@ -16,7 +16,7 @@ export const CardsListContainer = styled.ul`
         grid-column-gap: 20px;
         grid-row-gap: 20px;
         width: 1080px;
-        height: 700px;
+        height: 95%;
     }
 `
 
@@ -25,6 +25,9 @@ export const StyledMainContainer = styled.main`
     justify-content: center;
     align-items: center;
     background: var(--color-bg-2);
+    @media (max-width: 1024px) {
+        height: calc(100% - 8.1875rem);
+    }
     @media (min-width: 1024px) {
         height: calc(100vh - 8.1875rem);
     }

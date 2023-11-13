@@ -4,7 +4,7 @@ export const StyledCardProductsContainer = styled.li`
     display: flex;
     flex-direction: column;
     width: 15rem;
-    height: 20.1rem;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
     border-radius: 0.5rem;
