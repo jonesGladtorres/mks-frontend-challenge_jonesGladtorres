@@ -47,10 +47,9 @@ export const CardProducts = ({product}:TProductsProps) => {
                 </StyledContainerPrice>
             </StyledContainerNameCardProducts>
             <StyledDescriptionCard>{product.description}</StyledDescriptionCard>
-            <StyledButtonContainerCardsProducts>
+            <StyledButtonContainerCardsProducts onClick={() => handleAddCart()}>
                 <Image src={shoppingIcon} alt="Icone de uma sacola de compras"/> 
-                <StyledTypographButtonCard 
-                onClick={() => handleAddCart()}>COMPRAR</StyledTypographButtonCard>
+                <StyledTypographButtonCard>COMPRAR</StyledTypographButtonCard>
             </StyledButtonContainerCardsProducts>
           </StyledCardProductsContainer>
     )
